@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music World</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);
+color:white;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#00f2ff;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+background:url("anirudh.jpg") center/cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+animation:fade 2s;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero p{
+margin-top:10px;
+}
+
+/* MUSIC CARDS */
+
+.music{
+padding:60px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+border-radius:15px;
+padding:20px;
+text-align:center;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.03);
+}
+
+/* IMAGE GALLERY */
+
+.gallery{
+padding:50px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.gallery img{
+width:250px;
+border-radius:15px;
+transition:0.5s;
+}
+
+.gallery img:hover{
+transform:scale(1.08);
+}
+
+/* VIDEO */
+
+.video-section{
+padding:60px;
+text-align:center;
+}
+
+video{
+width:350px;
+margin:15px;
+border-radius:15px;
+box-shadow:0 0 20px #38aab0;
+}
+
+/* IFRAME */
+
+.iframe-section{
+padding:60px;
+text-align:center;
+}
+
+iframe{
+border-radius:15px;
+box-shadow:0 0 20px #4ba6aa;
+}
+
+/* AUDIO */
+
+.audio-section{
+padding:60px;
+text-align:center;
+}
+
+audio{
+margin-top:20px;
+}
+
+/* FOOTER */
+
+footer{
+background:black;
+text-align:center;
+padding:20px;
+}
+
+/* ANIMATION */
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h2>Music World 🎧</h2>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Songs</a>
+<a href="#">Gallery</a>
+<a href="#">Videos</a>
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h1>Feel The Music</h1>
+<p>Enjoy your favorite songs and music videos</p>
+
+</section>
+
+<!-- MUSIC CARDS -->
+
+<section class="music">
+
+<div class="card">
+<h3>Relax Music</h3>
+<p>Calm and peaceful music for relaxation.</p>
+</div>
+
+<div class="card">
+<h3>LoFi Beats</h3>
+<p>Perfect music for studying and focus.</p>
+</div>
+
+<div class="card">
+<h3>Party Music</h3>
+<p>Energetic songs for fun and celebration.</p>
+</div>
+
+</section>
+
+<!-- IMAGE GALLERY -->
+
+<section class="gallery">
+
+<img src="prakash.jpg">
+
+<img src="sid sriram.jpg">
+
+<img src="yuvan.jpg">
+
+</section>
+
+<!-- VIDEO SECTION -->
+
+<section class="video-section">
+
+<h2>Music Videos 🎬</h2>
+
+<video controls>
+<source src="c:\Users\kamatchi shree\Downloads\1275-145116912_small.mp4" type="video/mp4">
+</video>
+
+<video controls>
+<source src="c:\Users\kamatchi shree\Downloads\46637-448480646_small.mp4" type="video/mp4">
+</video>
+
+</section>
+
+<!-- IFRAME -->
+
+<section class="iframe-section">
+
+<h2>Featured Music Video</h2>
+
+<iframe width="560" height="315"src="https://www.youtube.com/embed/JZCUL_5U8l4?list=RDJZCUL_5U8l4" title="Singari Video Song | Dude | Pradeep Ranganathan, Mamitha Baiju | @Sai Abhyankkar  | Keerthiswaran" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+</section>
+
+<!-- AUDIO -->
+
+<section class="audio-section">
+
+<h2>Play Music 🎵</h2>
+
+<audio controls>
+<source src="c:\Users\kamatchi shree\Downloads\diet_mowtain_dew.mp3" type="audio/mp3">
+</audio>
+
+</section>
+
+<footer>
+
+<p>© 2026 Music World</p>
+
+</footer>
+
+</body>
+</html>
+</body>
+</html>
